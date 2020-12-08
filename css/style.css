@@ -1,0 +1,338 @@
+.brave {
+	background: url('../img/backgrounds/brave.png') fixed;
+	background-size: cover;
+}
+.cars {
+	background: url('../img/backgrounds/cars.jpg') fixed;
+	background-size: cover;
+}
+.joys {
+	background: url('../img/backgrounds/joys.jpg') fixed;
+	background-size: cover;
+}
+.monsters {
+	background: url('../img/backgrounds/monsters.jpg') fixed;
+	background-size: cover;
+}
+.nemo {
+	background: url('../img/backgrounds/nemo.jpg') fixed;
+	background-size: cover;
+}
+.ratatui {
+	background: url('../img/backgrounds/ratatui.jpg') fixed;
+	background-size: cover;
+}
+.up {
+	background: url('../img/backgrounds/up.jpg') fixed;
+	background-size: cover;
+}
+.walle {
+	background: url('../img/backgrounds/walle.jpg') fixed;
+	background-size: cover;
+}
+.test {
+	background: url('../img/backgrounds/test.jpg') fixed;
+	background-size: cover;
+}
+.glavnaya {
+	background: url('../img/backgrounds/gl.jpg') fixed;
+	background-size: cover;
+}
+#logo1 {
+	text-align: center;
+}
+#logo2 {
+	width: 100%;
+}
+.cont_head {
+	margin-top: 25px;
+}
+.cont_pers {
+	margin-top: 30px;
+	background-color: rgba(135, 206, 250, 0.7);
+	backdrop-filter: blur(3px);
+}
+.button_persons {
+	background-color: rgba(255, 140, 0, 0.7);
+	color: black;
+}
+.button_persons:hover {
+	border: 3px solid black;
+}
+.my_row {
+	margin: 20px 0 0 0;
+}
+.clickable {
+	margin: 10px 0;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+#gl_img {
+	border: 3px solid rgba(0,245,255,1);
+	border-radius: 3px;
+	box-shadow: 0 0 20px #00f5ff;
+}
+.clickable:hover, .clickable:focus, .clickable:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+table {
+	width: 100%;
+}
+td {
+	border: 1px solid black;
+    padding: 5px;
+    vertical-align: top;
+}
+.col1 { background: #ccc; }
+.col2 { background: #ffd; }
+.soundtracks {
+	margin: 10px 0;
+}
+video {
+	background-color: black;
+	max-width: 100%;
+	height: 360px;
+}
+.menu {
+	text-align: center;
+	padding: 0;
+}
+.menu li{
+	display: inline-block;
+}
+.menu a {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+	position: relative;
+	text-transform: uppercase;
+	transition: color .3s;
+}
+.menu a.active, .menu a:hover{
+	color: orange;
+	text-decoration: none;
+}
+.menu a:before,
+.menu a:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	height: 4px;
+	bottom: 0%;
+	background: orange;
+	transition: .7s;
+}
+.menu a:hover:before, .menu .active:before {left: 0;}
+.menu a:hover:after, .menu .active:after {right: 0;}
+@media (max-width: 768px) {
+	#logo2 {
+		width: 75%;
+	}
+	.menu a {
+		font-size: 40px;
+	}
+	#img_McQueen {
+		width: 70%;
+	}
+	#img_Mater {
+		width: 72%;
+	}
+	#img_Doc {
+		width: 100%;
+	}
+	#img_Carl {
+		width: 65%;
+	}
+	#img_Russell {
+		width: 90%;
+	}
+	#img_Charles {
+		width: 85%;
+	}
+	#img_Sulli {
+		width: 60%;
+	}
+	#img_Mike {
+		width: 65%;
+	}
+	#img_Randall {
+		width: 70%;
+	}
+	#img_Alfredo {
+		width: 45%;
+	}
+	#img_Remy {
+		width: 60%;
+	}
+	#img_Emile {
+		width: 80%;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.menu a {
+		font-size: 30px;
+	}
+	#logo2 {
+		margin: 8px 0;
+	}
+	#img_McQueen {
+		width: 69%;
+	}
+	#img_Mater {
+		width: 64.5%;
+	}
+	#img_Doc {
+		width: 100%;
+	}
+	#img_Carl {
+		width: 67.5%;
+	}
+	#img_Russell {
+		width: 100%;
+	}
+	#img_Charles {
+		width: 88%;
+	}
+	#img_Sulli {
+		width: 68%;
+	}
+	#img_Mike {
+		width: 82%;
+	}
+	#img_Randall {
+		width: 80%;
+	}
+	#img_Alfredo {
+		width: 35.2%;
+	}
+	#img_Remy {
+		width: 52.2%;
+	}
+	#img_Emile {
+		width: 82%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.menu a {
+		font-size: 32px;
+	}
+	#logo2 {
+		margin: 3px 0;
+	}
+	#img_McQueen {
+		width: 89%;
+	}
+	#img_Mater {
+		width: 84%;
+	}
+	#img_Doc {
+		width: 277px;
+		height: 170px;
+	}
+	#img_Carl {
+		width: 67.5%;
+	}
+	#img_Russell {
+		width: 100%;
+	}
+	#img_Charles {
+		width: 90%;
+	}
+	#img_Sulli {
+		width: 82%;
+	}
+	#img_Mike {
+		width: 94%;
+	}
+	#img_Randall {
+		width: 100%;
+	}
+	#img_Alfredo {
+		width: 45.8%;
+	}
+	#img_Remy {
+		width: 59%;
+	}
+	#img_Emile {
+		width: 82%;
+	}
+}
+@media (min-width: 1200px) {
+	.menu a {
+		font-size: 32px;
+	}
+	#logo2 {
+		width: 93%;
+	}
+	#img_McQueen {
+		width: 69%;
+	}
+	#img_Mater {
+		width: 64%;
+	}
+	#img_Doc {
+		width: 100%;
+	}
+	#img_Carl {
+		width: 64.5%;
+	}
+	#img_Russell {
+		width: 100%;
+	}
+	#img_Charles {
+		width: 91%;
+	}
+	#img_Sulli {
+		width: 69.2%;
+	}
+	#img_Mike {
+		width: 78.8%;
+	}
+	#img_Randall {
+		width: 84%;
+	}
+	#img_Alfredo {
+		width: 46%;
+	}
+	#img_Remy {
+		width: 60%;
+	}
+	#img_Emile {
+		width: 82.5%;
+	}
+}
+p {
+	font-family: "Times New Roman";
+}
+#test {
+	border-radius: 30px;
+	color: black;
+	margin: 15px 0;
+	padding-bottom: 10px;
+}
+#picture {
+	width: 60%;
+}
+.button{
+	outline: none;
+	width: 45%;
+	color: black;
+	font-weight: 600;
+	margin-bottom: 2px;
+	padding: 0.7em 0;
+	border: 3px solid;
+	border-radius: 3px;
+	transition: .5s;
+}
+.button:hover {
+	width: 42%;
+}
